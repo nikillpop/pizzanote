@@ -1,0 +1,56 @@
+[15:40:57] Server startup...
+
+[15:41:06] 192.168.50.141 got 403 when requesting "/ds/v2-us/index.ugo"
+[15:41:16] 192.168.50.141 got 403 when requesting "/ds/v2-us/index.ugo"
+[15:42:00] 192.168.50.141 got 403 when requesting "/ds/v2-us/index.ugo"
+[15:42:04] Server shutdown
+[15:48:21] Server startup...
+
+[15:48:54] 192.168.50.141 requested en/eula.txt
+[15:48:54] 192.168.50.141 requested en/confirm/upload.txt
+[15:48:55] 192.168.50.141 requested en/confirm/download.txt
+[15:48:55] 192.168.50.141 requested en/confirm/delete.txt
+[15:48:56] 192.168.50.141 requested index.ugo
+[15:49:00] 192.168.50.141 got 404 when requesting "/ds/v2-xx/Chat/index.htm"
+[16:15:46] Server startup...
+
+[16:16:26] 192.168.50.141 requested en/eula.txt
+[16:16:27] 192.168.50.141 requested en/confirm/upload.txt
+[16:16:28] 192.168.50.141 requested en/confirm/download.txt
+[16:16:28] 192.168.50.141 requested en/confirm/delete.txt
+[16:16:29] 192.168.50.141 requested index.ugo
+[16:16:33] 192.168.50.141 requested chat/index.htm
+[16:16:38] 192.168.50.141 requested inbox.ugo
+[16:18:28] 192.168.50.141 requested index.ugo
+[16:18:32] 192.168.50.141 requested help/info.htm
+[16:18:35] 192.168.50.141 requested frontpage/hotmovies.ugo page 1
+[16:18:51] 192.168.50.141 requested help/post_howto.htm
+[16:19:58] 192.168.50.141 requested frontpage/likedmovies.ugo page 1
+[16:20:00] 192.168.50.141 requested frontpage/newmovies.ugo page 1
+[16:20:07] 192.168.50.141 requested frontpage/hotmovies.ugo page 1
+[16:20:49] 192.168.50.141 requested frontpage/newmovies.ugo page 1
+[16:20:54] 192.168.50.141 requested frontpage/hotmovies.ugo page 1
+[16:20:56] 192.168.50.141 requested movie/913304C0CC74CC1F/74CC1F_0D3AA40F2B3A0_000.info
+[16:20:56] 192.168.50.141 requested movie/913304C0CC74CC1F/74CC1F_0D3AA40F2B3A0_000.ppm
+[17:14:46] Server startup...
+
+[17:15:15] 192.168.50.141 requested en/eula.txt
+[17:15:16] 192.168.50.141 requested en/confirm/upload.txt
+[17:15:22] 192.168.50.141 requested en/confirm/download.txt
+[17:15:22] 192.168.50.141 requested en/confirm/delete.txt
+[17:15:23] 192.168.50.141 requested index.ugo
+[17:15:28] 192.168.50.141 requested chat/index.htm
+[17:15:31] 192.168.50.141 requested help/info.htm
+[17:15:35] 192.168.50.141 requested inbox.ugo
+[17:15:38] 192.168.50.141 requested News/note1.htm
+[17:15:42] 192.168.50.141 requested help/info.htm
+[17:15:45] 192.168.50.141 requested frontpage/hotmovies.ugo page 1
+[17:15:48] 192.168.50.141 requested help/info.htm
+[17:15:51] 192.168.50.141 requested chat/index.htm
+[17:35:54] 192.168.50.141 requested en/eula.txt
+[17:35:55] 192.168.50.141 requested en/confirm/upload.txt
+[17:35:55] 192.168.50.141 requested en/confirm/download.txt
+[17:35:56] 192.168.50.141 requested en/confirm/delete.txt
+[17:35:56] 192.168.50.141 requested index.ugo
+[17:37:16] 192.168.50.141 requested chat/index.htm
+[18:15:05] Server shutdown
