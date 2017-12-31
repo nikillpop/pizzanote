@@ -27,8 +27,24 @@
 		<embedded_file>__ntfts/News.ntft</embedded_file>
 	</button>
 	<button>
-		<label>Chat</label>
-		<address>http://flipnote.hatena.com/ds/v2-xx/chat/index.htm</address>
+		<label>Keyboard</label>
+		<address>http://flipnote.hatena.com/ds/v2-xx/key/index.htm</address>
+		<trait>0</trait>
+		<value />
+		<value>0</value>
+		<embedded_file>__ntfts/News.ntft</embedded_file>
+	</button>
+	<button>
+		<label>Credits Test</label>
+		<address>http://flipnote.hatena.com/ds/v2-xx/credits.htm</address>
+		<trait>0</trait>
+		<value />
+		<value>0</value>
+		<embedded_file>__ntfts/News.ntft</embedded_file>
+	</button>
+	<button>
+		<label>Green Chat</label>
+		<address>http://flipnote.hatena.com/ds/v2-xx/greenc/index.htm</address>
 		<trait>0</trait>
 		<value />
 		<value>0</value>

@@ -18,8 +18,8 @@
 		<trait>3</trait>
 	</button>
 	<button>
-		<label>Note 1</label>
-		<address>http://flipnote.hatena.com/ds/v2-xx/News/note1.htm</address>
+		<label>Green Chat</label>
+		<address>http://flipnote.hatena.com/ds/v2-xx/help/chat_howto.htm</address>
 		<trait>3</trait>
 	</button>
 </ugo_xml>
