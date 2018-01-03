@@ -1,0 +1,7 @@
+@charset "UTF-8";
+div.title {
+ color: #7fffd4;
+  text-shadow: 2px 0 0 #2f4, -2px 0 0 #2f4, 0 2px 0 #2f4, 0 -2px 0 #2f4, 1px 1px #2f4, -1px -1px 0 #2f4, 1px -1px 0 #2f4, -1px 1px 0 #2f4;
+}
+div.news-body {
+color: #333333

@@ -27,7 +27,7 @@
 		<embedded_file>__ntfts/News.ntft</embedded_file>
 	</button>
 	<button>
-		<label>Keyboard</label>
+		<label>BIT</label>
 		<address>http://flipnote.hatena.com/ds/v2-xx/key/index.htm</address>
 		<trait>0</trait>
 		<value />
@@ -43,11 +43,19 @@
 		<embedded_file>__ntfts/News.ntft</embedded_file>
 	</button>
 	<button>
-		<label>Green Chat</label>
-		<address>http://flipnote.hatena.com/ds/v2-xx/greenc/index.htm</address>
+		<label>Chat Rooms</label>
+		<address>http://flipnote.hatena.com/ds/v2-xx/chat/index.htm</address>
 		<trait>0</trait>
 		<value />
 		<value>0</value>
 		<embedded_file>__ntfts/News.ntft</embedded_file>
+	</button>
+	<button>
+		<label>GCT</label>
+		<address>http://flipnote.hatena.com/ds/v2-xx/chat/greenc/greenc.uls</address>
+		<trait>0</trait>
+		<value />
+		<value>0</value>
+		<embedded_file>__ntfts/kaeru.ntft</embedded_file>
 	</button>
 </ugo_xml>

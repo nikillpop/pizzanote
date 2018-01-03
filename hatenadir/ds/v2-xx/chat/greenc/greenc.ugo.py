@@ -46,7 +46,7 @@ class PyResource(resource.Resource):
 			pages.append(self.MakePage(flipnotes[i*50:i*50+50], i+1, i<pagecount-1, flipcount))
 		
 		if self.pages:#not on startup
-			print time.strftime("[%H:%M:%S] Updated newmovies.ugo")
+			print time.strftime("[%H:%M:%S] Updated greenc.ugo")
 		self.pages = pages
 	def MakePage(self, flipnotes, page, next, count):
 		ugo = UGO()
@@ -55,7 +55,7 @@ class PyResource(resource.Resource):
 		
 		#meta
 		ugo.Items.append(("layout", (2, 1)))
-		ugo.Items.append(("topscreen text", ["New Flipnotes", "Flipnotes", str(count), "", "The newest Flipnotes submitted."], 0))
+		ugo.Items.append(("topscreen text", ["Green Chat", "Messages", str(count), "", "Chat Messages"], 0))
 		
 		#categories
 		ugo.Items.append(("category", "http://flipnote.hatena.com/ds/v2-xx/frontpage/hotmovies.uls", "Most Popular", False))
@@ -63,23 +63,23 @@ class PyResource(resource.Resource):
 		#ugo.Items.append(("category", "http://flipnote.hatena.com/ds/v2-xx/frontpage/recommended.uls", "Recommended", False))
 		ugo.Items.append(("category", "http://flipnote.hatena.com/ds/v2-xx/frontpage/newmovies.uls", "New Flipnotes", True))
 		#ugo.Items.append(("category", "http://flipnote.hatena.com/ds/v2-xx/frontpage/following.uls", "New Favourites", False))
-		ugo.Items.append(("category", "http://flipnote.hatena.com/ds/v2-xx/chat/greenc/greenc.uls", "New Flipnotes", True))
+		ugo.Items.append(("category", "http://flipnote.hatena.com/ds/v2-xx/chat/greenc/greenc.uls", "Green Chat", True))
 		
 		#the "post flipnote" button
-		ugo.Items.append(("unknown", ("3", "http://flipnote.hatena.com/ds/v2-xx/help/post_howto.htm", "UABvAHMAdAAgAEYAbABpAHAAbgBvAHQAZQA=")))
+		ugo.Items.append(("unknown", ("3", "http://flipnote.hatena.com/ds/v2-xx/post/comment.reply", "UABvAHMAdAAgAEYAbABpAHAAbgBvAHQAZQA=")))
 		
 		#previous page
 		if page > 1:
-			ugo.Items.append(("button", 115, "Previous", "http://flipnote.hatena.com/ds/v2-xx/frontpage/newmovies.uls?page=%i" % (page-1), ("", ""), None))
+			ugo.Items.append(("button", 115, "Previous", "http://flipnote.hatena.com/ds/v2-xx/chat/greenc/greenc.uls?page=%i" % (page-1), ("", ""), None))
 		
 		#Flipnotes
 		for creatorid, filename in flipnotes:#[i*50 : i*50+50]:
 			stars = str(Database.GetFlipnote(creatorid, filename)[2])
-			ugo.Items.append(("button", 3, "", "http://flipnote.hatena.com/ds/v2-xx/movie/%s/%s.ppm" % (creatorid, filename), (stars, "765", "573", "0"), (filename+".ppm", Database.GetFlipnoteTMB(creatorid, filename))))
+			ugo.Items.append(("button", 3, "", "http://flipnote.hatena.com/ds/v2-xx/chat/greenc/%s/%s.ppm" % (creatorid, filename), (stars, "765", "573", "0"), (filename+".ppm", Database.GetFlipnoteTMB(creatorid, filename))))
 		
 		#next page
 		if next:
-			ugo.Items.append(("button", 115, "Next", "http://flipnote.hatena.com/ds/v2-xx/frontpage/newmovies.uls?page=%i" % (page+1), ("", ""), None))
+			ugo.Items.append(("button", 115, "Next", "http://flipnote.hatena.com/ds/v2-xx/chat/greenc/greenc.uls?page=%i" % (page+1), ("", ""), None))
 		
 		return ugo.Pack()
 

@@ -17,9 +17,4 @@
 		<address>http://flipnote.hatena.com/ds/v2-xx/help/info.htm</address>
 		<trait>3</trait>
 	</button>
-	<button>
-		<label>Green Chat</label>
-		<address>http://flipnote.hatena.com/ds/v2-xx/help/chat_howto.htm</address>
-		<trait>3</trait>
-	</button>
 </ugo_xml>
